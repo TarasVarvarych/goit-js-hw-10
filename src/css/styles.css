@@ -18,3 +18,25 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.flag {
+  margin-right: 5px;
+}
+
+
+.fat-name {
+  font-size: 30;
+  font-weight: 600;
+}
+
+.fat {
+  font-weight: 700;
+}
