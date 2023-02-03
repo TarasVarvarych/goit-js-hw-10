@@ -18,6 +18,8 @@ function onInputChange(e) {
     .catch(error => {
       if (countryName !== '') {
         Notify.failure('Oops, there is no country with that name');
+        clearMarkup();
+
       }
     });
 }
